@@ -3,6 +3,7 @@ import traitlets
 from traitlets.config.configurable import SingletonConfigurable
 from .motor import Motor2
 from .motor import Motor
+from Adafruit_MotorHAT import Adafruit_MotorHAT
 
 
 class Robot2(SingletonConfigurable):

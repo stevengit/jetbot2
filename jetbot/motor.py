@@ -1,7 +1,7 @@
 import atexit
 import traitlets
 from traitlets.config.configurable import Configurable
-
+from Adafruit_MotorHAT import Adafruit_MotorHAT
 import smbus
 bus = smbus.SMBus(1)
 addr = 0x18
